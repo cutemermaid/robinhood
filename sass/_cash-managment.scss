@@ -1,0 +1,17 @@
+.cash-managment-image {
+  max-width: $desktop-width;
+  margin: 0 auto;
+  background-image: url("../image/cash-managment-image.png");
+  background-repeat: no-repeat;
+  height: 285px;
+  background-color: #010101;
+
+  .cash {
+    color: #ffffff;
+    width: 382px;
+    padding-top: 111px;
+    padding-left: 45px;
+    font-weight: 600;
+    font-size: 42px;
+  }
+}

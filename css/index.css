@@ -1,0 +1,206 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #202020;
+}
+
+.header-parent {
+  height: 100px;
+  width: 100%;
+}
+.header-parent .header-robinhood {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 34px;
+  height: auto;
+  align-items: center;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .header-parent .header-robinhood {
+    height: 50px;
+    padding: 0px 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-parent .header-robinhood {
+    padding: 0px 10px;
+  }
+}
+.header-parent .header-robinhood a {
+  padding-right: 40px;
+  color: #040d14;
+  text-decoration: none;
+}
+.header-parent .header-robinhood a:first-child {
+  display: flex;
+  padding-right: 40px;
+  color: #21ce99;
+  align-items: center;
+  font-weight: 600;
+}
+.header-parent .header-robinhood a:nth-child(7) {
+  flex: 1;
+}
+.header-parent .header-robinhood a::nth-child(8) {
+  padding-right: 40px;
+}
+.header-parent .header-robinhood .button {
+  background: #21ce99;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 0px;
+  width: 100px;
+  height: 30px;
+  margin-top: -12px;
+  font-weight: 600;
+}
+
+.invest {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../image/mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 700px;
+}
+.invest .invest-free {
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 90px;
+}
+.invest .invest-info {
+  font-size: 20px;
+  padding-top: 30px;
+}
+.invest .button-Invest {
+  background: #21ce99;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  height: 46px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.cash-managment-image {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-image: url("../image/cash-managment-image.png");
+  background-repeat: no-repeat;
+  height: 285px;
+  background-color: #010101;
+}
+.cash-managment-image .cash {
+  color: #ffffff;
+  width: 382px;
+  padding-top: 111px;
+  padding-left: 45px;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrapper .wrap-description {
+  width: 262px;
+}
+.wrapper .wrap-description img {
+  padding-top: 90px;
+}
+.wrapper .wrap-description .heading {
+  padding-top: 70px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.wrapper .wrap-description .info {
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 30px;
+}
+.wrapper .wrap-description .learn {
+  color: #21ce99;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.no-manual-needed {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-image: url("../image/manual-need.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  height: 700px;
+}
+.no-manual-needed .manual-need {
+  float: right;
+  width: 582px;
+  margin-right: 61px;
+  margin-top: 200px;
+  margin-bottom: 117px;
+  text-align: left;
+}
+.no-manual-needed .manual-need .heading-of-manual {
+  line-height: 37px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 27px;
+}
+.no-manual-needed .manual-need .description-of-manual {
+  font-weight: normal;
+  line-height: 23px;
+  font-size: 19px;
+  color: #4f4f4f;
+}
+
+.tabs {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../image/tabs.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 700px;
+}
+.tabs .keep-tabs {
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 90px;
+}
+.tabs .tabs-info {
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=index.css.map */

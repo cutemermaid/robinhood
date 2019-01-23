@@ -1,0 +1,57 @@
+.header-parent {
+  height: 100px;
+  width: 100%;
+  .header-robinhood {
+    max-width: $desktop-width;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 34px;
+    height: auto;
+    align-items: center;
+    font-weight: 600;
+
+    @include mobile {
+      height: 50px;
+      padding: 0px 10px;
+    }
+
+    @include tablet {
+      padding: 0px 10px;
+    }
+
+    a {
+      padding-right: 40px;
+      color: #040d14;
+      text-decoration: none;
+
+      &:first-child {
+        display: flex;
+        padding-right: 40px;
+        color: #21ce99;
+        align-items: center;
+        font-weight: 600;
+      }
+
+      &:nth-child(7) {
+        flex: 1;
+      }
+
+      &::nth-child(8) {
+        padding-right: 40px;
+      }
+    }
+    .button {
+      background: #21ce99;
+      color: #fff;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      font-size: 20px;
+      margin-right: 0px;
+      width: 100px;
+      height: 30px;
+      margin-top: -12px;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.wrapper {
+  max-width: $desktop-width;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .wrap-description {
+    width: 262px;
+
+    img {
+      padding-top: 90px;
+    }
+    .heading {
+      padding-top: 70px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .info {
+      font-size: 18px;
+      padding-top: 20px;
+      line-height: 30px;
+    }
+    .learn {
+      color: #21ce99;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+}
