@@ -1,0 +1,32 @@
+.footer {
+  max-width: $desktop-width;
+  margin: 0 auto;
+  text-align: center;
+
+  .links {
+    padding-top: 50px;
+
+    svg {
+      margin-right: 15px;
+    }
+  }
+
+  .footer-description {
+    display: flex;
+    margin-top: 40px;
+    p {
+      color: #a7aaac;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: -0.12px;
+      line-height: 16px;
+    }
+
+    .first {
+      width: 50%;
+    }
+    .second {
+      width: 50%;
+    }
+  }
+}

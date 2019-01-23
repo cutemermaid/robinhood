@@ -1,29 +1,30 @@
 .no-manual-needed {
   max-width: $desktop-width;
   margin: 0 auto;
-  background-image: url("../image/manual-need.png");
-  background-repeat: no-repeat;
-  background-position-x: left;
-  height: 700px;
+  height: 470px;
+
+  .manual-image {
+    width: 500px;
+  }
 
   .manual-need {
     float: right;
     width: 582px;
-    margin-right: 61px;
-    margin-top: 200px;
-    margin-bottom: 117px;
     text-align: left;
+    margin-top: 173px;
+
     .heading-of-manual {
       line-height: 37px;
-      font-size: 45px;
+      font-size: 46px;
       font-weight: bold;
       color: #333333;
       margin-bottom: 27px;
     }
     .description-of-manual {
       font-weight: normal;
-      line-height: 23px;
-      font-size: 19px;
+      font-size: 16px;
+      margin-top: 30px;
+      line-height: 30px;
       color: #4f4f4f;
     }
   }

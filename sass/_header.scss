@@ -1,6 +1,8 @@
 .header-parent {
   height: 100px;
   width: 100%;
+  position: fixed;
+  background: #ffff;
   .header-robinhood {
     max-width: $desktop-width;
     margin: 0 auto;
@@ -20,13 +22,13 @@
     }
 
     a {
-      padding-right: 40px;
+      padding-right: 30px;
       color: #040d14;
       text-decoration: none;
 
       &:first-child {
         display: flex;
-        padding-right: 40px;
+        padding-right: 30px;
         color: #21ce99;
         align-items: center;
         font-weight: 600;
@@ -37,19 +39,20 @@
       }
 
       &::nth-child(8) {
-        padding-right: 40px;
+        padding-right: 30px;
       }
     }
     .button {
       background: #21ce99;
+      cursor: pointer;
       color: #fff;
       border: none;
       outline: none;
-      border-radius: 10px;
+      border-radius: 15px;
       font-size: 20px;
       margin-right: 0px;
       width: 100px;
-      height: 30px;
+      height: 41px;
       margin-top: -12px;
       font-weight: 600;
     }

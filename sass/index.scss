@@ -1,5 +1,39 @@
 @import url("normalize.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://d2ue93q3u507c2.cloudfront.net/assets-about/static/DINPro-Light.217be8a3.otf)
+    format("opentype");
+}
+@font-face {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://d2ue93q3u507c2.cloudfront.net/assets-about/static/DINPro-Regular.287d570b.otf)
+    format("opentype");
+}
+@font-face {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://d2ue93q3u507c2.cloudfront.net/assets-about/static/DINPro-Medium.1735d1dc.otf)
+    format("opentype");
+}
+@font-face {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://d2ue93q3u507c2.cloudfront.net/assets-about/static/DINPro-Bold.f42924e3.otf)
+    format("opentype");
+}
+@font-face {
+  font-family: "DIN Pro";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://d2ue93q3u507c2.cloudfront.net/assets-about/static/DINPro-Black.2000a4d2.otf)
+    format("opentype");
+}
 @import "./variables";
 @import "./mixins";
 html {
@@ -11,7 +45,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "DIN Pro", sans-serif;
   font-size: 16px;
   color: #202020;
 }
@@ -21,3 +55,6 @@ body {
 @import "./wrapper";
 @import "./no-manual-needed";
 @import "./tabs";
+@import "./strategize\ and\ execute";
+@import "./started";
+@import "./footer";

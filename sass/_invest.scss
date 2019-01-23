@@ -2,32 +2,39 @@
   max-width: $desktop-width;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("../image/mobile.png");
-  background-repeat: no-repeat;
-  background-position-x: right;
-  height: 700px;
+  // background-image: url("../image/mobile.png");
+  // background-repeat: no-repeat;
+  // background-position-x: right;
+  height: 530px;
 
-  .invest-free {
-    font-size: 50px;
-    font-weight: 600;
-    padding-top: 90px;
+  .free-info {
+    flex: 1;
+    .invest-free {
+      font-size: 46px;
+      font-weight: 600;
+      padding-top: 212px;
+    }
+    .invest-info {
+      font-size: 16px;
+      padding-top: 30px;
+    }
+
+    .button-Invest {
+      background: #21ce99;
+      cursor: pointer;
+      color: #fff;
+      border: none;
+      outline: none;
+      border-radius: 15px;
+      font-size: 20px;
+      font-weight: 600;
+      height: 41px;
+      width: 100px;
+      margin-top: 30px;
+    }
   }
-  .invest-info {
-    font-size: 20px;
-    padding-top: 30px;
-  }
-  .button-Invest {
-    background: #21ce99;
-    color: #fff;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    height: 46px;
-    width: 100px;
-    margin-top: 30px;
+  .mobile-image {
+    width: 700px;
+    padding-top: 92px;
   }
 }

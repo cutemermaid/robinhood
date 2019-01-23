@@ -1,0 +1,54 @@
+.parent-of-strategize {
+  width: 100%;
+  background-image: url("../image/strategize.png");
+  background-repeat: no-repeat;
+  background-position-x: -263px;
+  background-position-y: -467px;
+  background-color: #040d14;
+  background-size: 1042px;
+  .strategize-and-execute {
+    max-width: $desktop-width;
+    margin: 0 auto;
+    height: 520px;
+    .execute {
+      float: right;
+      width: 582px;
+      margin-right: -42px;
+      color: #fff;
+      margin-top: 169px;
+      margin-bottom: 117px;
+      text-align: left;
+      .heading-of-execute {
+        line-height: 37px;
+        font-size: 46px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 27px;
+      }
+      .description-of-execute {
+        font-weight: normal;
+        line-height: 26px;
+        font-size: 16px;
+        margin-top: 36px;
+      }
+      .button-staategize {
+        background: linear-gradient(114.36deg, #956436 0%, #bc935e 100%);
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 15px;
+        font-size: 20px;
+        margin-right: 0px;
+        width: 100px;
+        height: 41px;
+        margin-top: 36px;
+        font-weight: 600;
+      }
+      .robinhood-gold {
+        font-size: 14px;
+        margin-top: 45px;
+      }
+    }
+  }
+}
