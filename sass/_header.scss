@@ -1,5 +1,5 @@
 .header-parent {
-  height: 100px;
+  height: 72px;
   width: 100%;
   position: fixed;
   background: #ffff;
@@ -7,8 +7,7 @@
     max-width: $desktop-width;
     margin: 0 auto;
     display: flex;
-    padding-top: 34px;
-    height: auto;
+    height: 100%;
     align-items: center;
     font-weight: 600;
 
@@ -22,38 +21,64 @@
     }
 
     a {
-      padding-right: 30px;
+      padding-right: 36px;
       color: #040d14;
       text-decoration: none;
+      font-size: 16px;
+      font-weight: 900;
+      letter-spacing: 0.32px;
+      line-height: 27px;
 
       &:first-child {
+        letter-spacing: -0.97px;
+        color: currentColor;
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 5px;
         display: flex;
-        padding-right: 30px;
-        color: #21ce99;
+        padding-right: 48px;
         align-items: center;
-        font-weight: 600;
+        padding-left: 3px;
+      }
+      &:nth-child(3) {
+        padding-right: 13px;
+        // padding-right: 5px;
+      }
+
+      &:nth-child(4) {
+        background: #e7f8f3;
+        border-radius: 2px;
+        color: #21ce99;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: bold;
+        height: 24px;
+        letter-spacing: 0.02em;
+        line-height: 24px;
+        padding-right: 43px;
       }
 
       &:nth-child(7) {
         flex: 1;
       }
 
-      &::nth-child(8) {
-        padding-right: 30px;
+      &:nth-child(8) {
+        padding-right: 36px;
       }
     }
     .button {
       background: #21ce99;
       cursor: pointer;
-      color: #fff;
+      color: rgb(255, 255, 255);
       border: none;
       outline: none;
-      border-radius: 15px;
-      font-size: 20px;
-      margin-right: 0px;
-      width: 100px;
-      height: 41px;
-      margin-top: -12px;
+      border-radius: 36px;
+      font-size: 17px;
+      margin-right: -44px;
+      width: 107px;
+      height: 48px;
+      margin-top: -1px;
+      align-items: center;
       font-weight: 600;
     }
   }

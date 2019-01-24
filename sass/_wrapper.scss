@@ -4,27 +4,30 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  height: 450px;
 
   .wrap-description {
-    width: 262px;
+    width: 210px;
 
     img {
-      padding-top: 90px;
+      margin-bottom: 50px;
     }
     .heading {
-      padding-top: 70px;
-      font-size: 30px;
-      font-weight: 600;
+      margin-bottom: 18px;
+      letter-spacing: 0.01em;
+      line-height: 36px;
+      color: #040d14;
+      font-size: 28px;
+      font-weight: 900;
     }
     .info {
-      font-size: 18px;
-      padding-top: 20px;
-      line-height: 30px;
-      padding-bottom: 20px;
+      font-size: 16px;
+      line-height: 26px;
+      padding-bottom: 28px;
     }
     .learn {
       color: #21ce99;
-      font-size: 18px;
+      font-weight: 900;
       text-decoration: none;
     }
   }

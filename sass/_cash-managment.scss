@@ -1,17 +1,26 @@
-.cash-managment-image {
-  max-width: $desktop-width;
-  margin: 0 auto;
-  background-image: url("../image/cash-managment-image.png");
-  background-repeat: no-repeat;
-  height: 285px;
-  background-color: #010101;
+.cash-parent {
+  width: 100%;
+  height: 366px;
 
-  .cash {
-    color: #ffffff;
-    width: 382px;
-    padding-top: 111px;
-    padding-left: 45px;
-    font-weight: 600;
-    font-size: 42px;
+  .cash-managment-image {
+    max-width: 1224px;
+    margin: 0 auto;
+    background-image: url("../image/cash-managment-image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 276px;
+    background-color: #010101;
+
+    .cash {
+      color: #ffffff;
+      width: 400px;
+      padding-top: 86px;
+      padding-left: 32px;
+      font-weight: 900;
+      font-size: 34px;
+      letter-spacing: 0.01em;
+      line-height: 36px;
+    }
   }
 }

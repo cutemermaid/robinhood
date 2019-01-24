@@ -2,14 +2,14 @@
   width: 100%;
   background-image: url("../image/strategize.png");
   background-repeat: no-repeat;
-  background-position-x: -263px;
-  background-position-y: -467px;
+  background-position-x: -208px;
+  background-position-y: -364px;
   background-color: #040d14;
   background-size: 1042px;
   .strategize-and-execute {
     max-width: $desktop-width;
     margin: 0 auto;
-    height: 520px;
+    height: 600px;
     .execute {
       float: right;
       width: 582px;
@@ -34,14 +34,14 @@
       .button-staategize {
         background: linear-gradient(114.36deg, #956436 0%, #bc935e 100%);
         cursor: pointer;
-        color: #fff;
+        color: rgb(255, 255, 255);
         border: none;
         outline: none;
-        border-radius: 15px;
-        font-size: 20px;
+        border-radius: 36px;
+        font-size: 17px;
         margin-right: 0px;
-        width: 100px;
-        height: 41px;
+        width: 107px;
+        height: 48px;
         margin-top: 36px;
         font-weight: 600;
       }

@@ -3,24 +3,27 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  // background-image: url("../image/tabs.png");
-  // background-repeat: no-repeat;
-  // background-position-x: right;
+  background-image: url("../image/tabs.png");
+  background-repeat: no-repeat;
+  background-position-x: 570px;
   height: 670px;
+
+  background-position-y: 10px;
+  background-size: 650px;
   .tabs-image {
     width: 580px;
   }
 
   .tabs-description {
     .keep-tabs {
-      font-size: 45px;
+      font-size: 46px;
       font-weight: 600;
       margin-top: 225px;
     }
     .tabs-info {
-      font-size: 20px;
+      font-size: 16px;
       margin-top: 30px;
-      line-height: 30px;
+      line-height: 26px;
     }
   }
 }
