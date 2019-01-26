@@ -5,8 +5,8 @@
   background-image: url("../image/manual-need-image.png");
   background-repeat: no-repeat;
   background-position-x: -26px;
-  background-position-y: 11px;
-  background-size: 650px;
+  background-position-y: 24px;
+  background-size: 649px;
 
   .manual-image {
     width: 500px;
@@ -16,20 +16,22 @@
     float: right;
     width: 582px;
     text-align: left;
-    margin-top: 173px;
+    margin-top: 261px;
+    margin-right: 14px;
 
     .heading-of-manual {
-      line-height: 37px;
+      line-height: 49px;
       font-size: 46px;
       font-weight: bold;
-      color: #333333;
+      color: #040d14;
       margin-bottom: 27px;
+      letter-spacing: -0.02em;
     }
     .description-of-manual {
       font-weight: normal;
       font-size: 16px;
-      margin-top: 30px;
-      line-height: 30px;
+      margin-top: -2px;
+      line-height: 26px;
       color: #010101;
     }
   }

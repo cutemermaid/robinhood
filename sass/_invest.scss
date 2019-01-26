@@ -1,14 +1,33 @@
+@keyframes enter {
+  0%,
+  20% {
+    filter: blur(40px);
+    opacity: 0;
+    transform: translate(0, 70px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 .invest {
   max-width: $desktop-width;
   margin: 0 auto;
   display: flex;
-  background-image: url("../image/mobile.png");
-  background-repeat: no-repeat;
-  background-position-x: 400px;
   height: 812px;
-  background-position-y: 72px;
   background-color: #ffff;
 
+  .free-image {
+    flex: 1;
+    animation: enter 2s ease-in;
+    background-image: url("../image/mobile.png");
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+    background-position-y: 72px;
+  }
   .free-info {
     width: 310px;
     .invest-free {

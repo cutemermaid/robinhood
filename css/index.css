@@ -127,16 +127,33 @@ body {
   font-weight: 600;
 }
 
+@keyframes enter {
+  0%, 20% {
+    filter: blur(40px);
+    opacity: 0;
+    transform: translate(0, 70px);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 .invest {
   max-width: 1192px;
   margin: 0 auto;
   display: flex;
+  height: 812px;
+  background-color: #ffff;
+}
+.invest .free-image {
+  flex: 1;
+  animation: enter 2s ease-in;
   background-image: url("../image/mobile.png");
   background-repeat: no-repeat;
-  background-position-x: 400px;
-  height: 812px;
+  background-position-x: 90px;
   background-position-y: 72px;
-  background-color: #ffff;
 }
 .invest .free-info {
   width: 310px;
@@ -238,8 +255,8 @@ body {
   background-image: url("../image/manual-need-image.png");
   background-repeat: no-repeat;
   background-position-x: -26px;
-  background-position-y: 11px;
-  background-size: 650px;
+  background-position-y: 24px;
+  background-size: 649px;
 }
 .no-manual-needed .manual-image {
   width: 500px;
@@ -248,46 +265,51 @@ body {
   float: right;
   width: 582px;
   text-align: left;
-  margin-top: 173px;
+  margin-top: 261px;
+  margin-right: 14px;
 }
 .no-manual-needed .manual-need .heading-of-manual {
-  line-height: 37px;
+  line-height: 49px;
   font-size: 46px;
   font-weight: bold;
-  color: #333333;
+  color: #040d14;
   margin-bottom: 27px;
+  letter-spacing: -0.02em;
 }
 .no-manual-needed .manual-need .description-of-manual {
   font-weight: normal;
   font-size: 16px;
-  margin-top: 30px;
-  line-height: 30px;
+  margin-top: -2px;
+  line-height: 26px;
   color: #010101;
 }
 
 .tabs {
   max-width: 1192px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
   background-image: url("../image/tabs.png");
   background-repeat: no-repeat;
   background-position-x: 570px;
-  height: 670px;
-  background-position-y: 10px;
+  height: 700px;
+  background-position-y: 23px;
   background-size: 650px;
 }
 .tabs .tabs-image {
   width: 580px;
 }
+.tabs .tabs-description {
+  padding-top: 249px;
+  padding-left: 200px;
+}
 .tabs .tabs-description .keep-tabs {
   font-size: 46px;
   font-weight: 600;
-  margin-top: 225px;
+  letter-spacing: -0.02em;
+  line-height: 49px;
 }
 .tabs .tabs-description .tabs-info {
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 26px;
   line-height: 26px;
 }
 
@@ -295,10 +317,10 @@ body {
   width: 100%;
   background-image: url("../image/strategize.png");
   background-repeat: no-repeat;
-  background-position-x: -208px;
-  background-position-y: -364px;
+  background-position-x: -198px;
+  background-position-y: -350px;
   background-color: #040d14;
-  background-size: 1042px;
+  background-size: 1000px;
 }
 .parent-of-strategize .strategize-and-execute {
   max-width: 1192px;
@@ -308,9 +330,9 @@ body {
 .parent-of-strategize .strategize-and-execute .execute {
   float: right;
   width: 582px;
-  margin-right: -42px;
+  margin-right: 14px;
   color: #fff;
-  margin-top: 169px;
+  margin-top: 142px;
   margin-bottom: 117px;
   text-align: left;
 }
@@ -319,13 +341,14 @@ body {
   font-size: 46px;
   color: #fff;
   font-weight: bold;
-  margin-bottom: 27px;
+  letter-spacing: -0.02em;
+  line-height: 49px;
 }
 .parent-of-strategize .strategize-and-execute .execute .description-of-execute {
   font-weight: normal;
   line-height: 26px;
   font-size: 16px;
-  margin-top: 36px;
+  margin-top: 35px;
 }
 .parent-of-strategize .strategize-and-execute .execute .button-staategize {
   background: linear-gradient(114.36deg, #956436 0%, #bc935e 100%);
@@ -338,12 +361,17 @@ body {
   margin-right: 0px;
   width: 107px;
   height: 48px;
-  margin-top: 36px;
+  margin-top: 37px;
   font-weight: 600;
+  line-height: 17px;
 }
 .parent-of-strategize .strategize-and-execute .execute .robinhood-gold {
+  color: #ddd;
+  font-weight: 500;
   font-size: 14px;
-  margin-top: 45px;
+  letter-spacing: -0.14px;
+  line-height: 20px;
+  margin-top: 35px;
 }
 
 .start {
@@ -355,17 +383,19 @@ body {
 .started {
   max-width: 1192px;
   margin: 0 auto;
-  height: 400px;
+  height: 461px;
 }
 .started .get-started {
   font-size: 46px;
-  font-weight: 600;
-  padding-top: 100px;
+  font-weight: bold;
+  padding-top: 108px;
+  letter-spacing: -0.02em;
+  line-height: 49px;
 }
 .started .get-info {
   font-size: 16px;
-  padding-top: 35px;
-  line-height: 25px;
+  padding-top: 36px;
+  line-height: 26px;
 }
 .started .button-started {
   background: #ffffff;
@@ -377,7 +407,7 @@ body {
   font-size: 16px;
   width: 107px;
   height: 48px;
-  margin-top: 50px;
+  margin-top: 60px;
   font-weight: 600;
 }
 
@@ -387,14 +417,19 @@ body {
   text-align: center;
 }
 .footer .links {
-  padding-top: 50px;
+  padding-top: 44px;
+  font-size: 0;
 }
 .footer .links svg {
-  margin-right: 15px;
+  margin: 0 9px;
+}
+.footer .links svg:nth-child(4) {
+  padding-top: 1px;
 }
 .footer .footer-description {
   display: flex;
   margin-top: 40px;
+  padding-bottom: 100px;
 }
 .footer .footer-description a {
   color: #21ce99;
@@ -410,12 +445,13 @@ body {
 }
 .footer .footer-description .first {
   width: 45%;
-  text-align: justify;
+  text-align: left;
+  margin: -5px 12px;
 }
 .footer .footer-description .second {
   width: 45%;
-  padding-left: 5%;
-  text-align: justify;
+  text-align: left;
+  margin: -5px 24px;
 }
 
 /*# sourceMappingURL=index.css.map */
